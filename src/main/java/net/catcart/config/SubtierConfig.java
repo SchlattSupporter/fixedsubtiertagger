@@ -70,20 +70,20 @@ public class SubtierConfig implements Serializable {
 
     private static LinkedTreeMap<String, Integer> defaultColorsTiers() {
         LinkedTreeMap<String, Integer> colors = new LinkedTreeMap<>();
-        colors.put("HT1", 0xFF0000);
-        colors.put("LT1", 0xFFB6C1);
-        colors.put("HT2", 0xFFA500);
-        colors.put("LT2", 0xFFE4B5);
-        colors.put("HT3", 0xDAA520);
-        colors.put("LT3", 0xEEE8AA);
+        colors.put("HT1", 0xF7C223);
+        colors.put("LT1", 0xFFE285);
+        colors.put("HT2", 0x8A8A8A);
+        colors.put("LT2", 0xC7C7C7);
+        colors.put("HT3", 0xE3761E);
+        colors.put("LT3", 0xAD5309);
         colors.put("HT4", 0x006400);
         colors.put("LT4", 0x90EE90);
         colors.put("HT5", 0x808080);
         colors.put("LT5", 0xD3D3D3);
-        colors.put("RHT1", 0xFF0000);
-        colors.put("RLT1", 0xFFB6C1);
-        colors.put("RHT2", 0xFFA500);
-        colors.put("RLT2", 0xFFE4B5);
+        colors.put("RHT1", 0xA2C3E8);
+        colors.put("RLT1", 0xA2C3E8);
+        colors.put("RHT2", 0xA2C3E8);
+        colors.put("RLT2", 0xA2C3E8);
         return colors;
     }
 
